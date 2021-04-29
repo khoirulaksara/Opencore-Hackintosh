@@ -8,7 +8,7 @@ Spesifikasi PC:
 - Mainboard : MSI H410M PRO VH
 - RAM : HyperX Fury 16 GB Kit
 - Storage : Midasforce 256GB + KLEVV 240GB + HDD HGST 1 TB
-- VGA : Menuyusul
+- VGA : Onboard Intel UHD 630
  
  All Work Thanks :)
  
