@@ -7,7 +7,7 @@ Spesifikasi PC:
 - Processor : Intel i3 10100
 - Mainboard : MSI H410M PRO VH
 - RAM : HyperX Fury 16 GB Kit
-- Storage : Midasforce 256GB + KLEVV 240GB + HDD HGST 1 TB
+- Storage : NVME ADATA SX8200 PRO 256GB + KLEVV 240GB + HDD HGST 1 TB
 - VGA : Onboard Intel UHD 630
  
  All Work Thanks :)
