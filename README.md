@@ -1,9 +1,9 @@
-# Opencore Hackintosh
-Hackintosh Monterey 12.6.9 (21G726)
+# Hackintosh Vanilla Opencore
+Hackintosh Monterey 12.6.9 (21G726) 
 
 ![Monterey 12.6.9 (21G726)](https://github.com/khoirulaksara/Opencore-Hackintosh/blob/main/Screen%20Shot%202023-09-18%20at%2004.37.43.png?raw=true)
 
-Spesifikasi PC:
+# Spesifikasi PC:
 - Processor : Intel i3 10100
 - Mainboard : MSI H410M PRO VH
 - RAM : Apacher Panther 32 GB Kit
@@ -11,4 +11,5 @@ Spesifikasi PC:
 - VGA : RX VEGA64 8 GB
  
  All Work Thanks :)
+
  
