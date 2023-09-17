@@ -1,5 +1,5 @@
 # Opencore Hackintosh
-Hackintosh Monterey 12.6.8 (21G725)
+Hackintosh Monterey 12.6.9 (21G725)
 
 ![Catalina 10.15.7](https://github.com/khoirulaksara/Opencore-Hackintosh/blob/main/Screen%20Shot%202021-03-14%20at%2014.44.24.png?raw=true)
 
