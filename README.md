@@ -1,4 +1,7 @@
 # Hackintosh Vanilla Opencore
+[![macOS](https://img.shields.io/badge/macOS-Monterey%2012.6.9-purple?logo=apple)](https://www.apple.com/by/macos/monterey/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue?logo=opencore)](https://github.com/acidanthera/OpenCorePkg)
+
 ## MacOS Monterey 12.6.9 (21G726) 
 
 ![Monterey 12.6.9 (21G726)](https://github.com/khoirulaksara/Opencore-Hackintosh/blob/main/Screen%20Shot%202023-09-18%20at%2004.37.43.png?raw=true)
