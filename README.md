@@ -6,9 +6,9 @@ Hackintosh Monterey 12.6.8 (21G725)
 Spesifikasi PC:
 - Processor : Intel i3 10100
 - Mainboard : MSI H410M PRO VH
-- RAM : HyperX Fury 16 GB Kit
+- RAM : Apacher Panther 32 GB Kit
 - Storage : NVME ADATA SX8200 PRO 256GB + KLEVV 240GB + HDD HGST 1 TB
-- VGA : Onboard Intel UHD 630
+- VGA : RX VEGA64 8 GB
  
  All Work Thanks :)
  
