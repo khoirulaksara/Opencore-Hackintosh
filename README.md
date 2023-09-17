@@ -1,7 +1,7 @@
 # Opencore Hackintosh
 Hackintosh Monterey 12.6.9 (21G726)
 
-![Monterey 12.6.9 (21G726)](https://github.com/khoirulaksara/Opencore-Hackintosh/blob/main/Screen%20Shot%202023-09-18%20at%2004.32.05.png?raw=true)
+![Monterey 12.6.9 (21G726)](https://github.com/khoirulaksara/Opencore-Hackintosh/blob/main/Screen%20Shot%202023-09-18%20at%2004.37.43.png?raw=true)
 
 Spesifikasi PC:
 - Processor : Intel i3 10100
