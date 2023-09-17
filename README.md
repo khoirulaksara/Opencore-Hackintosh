@@ -6,7 +6,7 @@
 ## Spesifikasi PC:
 - Processor : Intel i3 10100
 - Mainboard : MSI H410M PRO VH
-- RAM : Apacher Panther 32 GB Kit
+- RAM : Apacer Panther 32 GB Kit
 - Storage : NVME ADATA SX8200 PRO 256GB + KLEVV 240GB + HDD HGST 1 TB
 - VGA : RX VEGA64 8 GB
  
