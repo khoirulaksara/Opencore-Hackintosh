@@ -80,56 +80,7 @@
             <key>MmioWhitelist</key>
             <array/>
             <key>Patch</key>
-            <array>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>Comment</key>
-                    <string>Skip Board ID check</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>AFAAbABhAHQAZgBvAHIAbQBTAHUAcABwAG8AcgB0AC4AcABsAGkAcwB0</data>
-                    <key>Identifier</key>
-                    <string>Apple</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>AC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAuAC4ALgAu</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>Comment</key>
-                    <string>Reroute HW_BID to OC_BID</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>SABXAF8AQgBJAEQA</data>
-                    <key>Identifier</key>
-                    <string>Apple</string>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>TwBDAF8AQgBJAEQA</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                </dict>
-            </array>
+            <array/>
             <key>Quirks</key>
             <dict>
                 <key>AllowRelocationBlock</key>
@@ -178,168 +129,70 @@
         <dict>
             <key>Add</key>
             <dict>
-				<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,0,0</string>
-					<key>device_type</key>
-					<string>Host bridge</string>
-					<key>model</key>
-					<string>10th Gen Core Processor Host Bridge/DRAM Registers</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,1,0</string>
-					<key>device_type</key>
-					<string>PCI bridge</string>
-					<key>model</key>
-					<string>6th-10th Gen Core Processor PCIe Controller (x16)</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,1,0/0,0</string>
-					<key>device_type</key>
-					<string>PCI bridge</string>
-					<key>model</key>
-					<string>Vega 10 PCIe Bridge</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,1,0/0,0/0,0</string>
-					<key>device_type</key>
-					<string>PCI bridge</string>
-					<key>model</key>
-					<string>Vega 10 PCIe Bridge</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,1,0/0,0/0,0/0,0</string>
-					<key>device_type</key>
-					<string>VGA compatible controller</string>
-					<key>model</key>
-					<string>Vega 10 XL/XT [Radeon RX Vega 56/64]</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,1,0/0,0/0,0/0,1</string>
-					<key>device_type</key>
-					<string>Audio device</string>
-					<key>model</key>
-					<string>Vega 10 HDMI Audio [Radeon Vega 56/64]</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,20,0</string>
-					<key>device_type</key>
-					<string>USB controller</string>
-					<key>model</key>
-					<string>Comet Lake PCH-V USB Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,20,2</string>
-					<key>device_type</key>
-					<string>Signal processing controller</string>
-					<key>model</key>
-					<string>Comet Lake PCH-V Thermal Subsystem</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,22,0</string>
-					<key>device_type</key>
-					<string>Communication controller</string>
-					<key>model</key>
-					<string>Comet Lake PCH-V HECI Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,23,0</string>
-					<key>device_type</key>
-					<string>SATA controller</string>
-					<key>model</key>
-					<string>400 Series Chipset Family SATA AHCI Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,28,0</string>
-					<key>device_type</key>
-					<string>PCI bridge</string>
-					<key>model</key>
-					<string>Comet Lake PCI Express Root Port #05</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,28,0/0,0</string>
-					<key>device_type</key>
-					<string>Non-Volatile memory controller</string>
-					<key>model</key>
-					<string>XPG SX8200 Pro PCIe Gen3x4 M.2 2280 Solid State Drive</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,0</string>
-					<key>device_type</key>
-					<string>ISA bridge</string>
-					<key>model</key>
-					<string>H410 Chipset LPC/eSPI Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,2</string>
-					<key>device_type</key>
-					<string>Memory controller</string>
-					<key>model</key>
-					<string>Cannon Lake PCH Power Management Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,3</string>
-					<key>device_type</key>
-					<string>Audio device</string>
-					<key>model</key>
-					<string>Comet Lake PCH-V cAVS</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,4</string>
-					<key>device_type</key>
-					<string>SMBus</string>
-					<key>model</key>
-					<string>Comet Lake PCH-V SMBus Host Controller</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,31,6</string>
-					<key>device_type</key>
-					<string>Ethernet controller</string>
-					<key>model</key>
-					<string>Ethernet Connection (12) I219-V</string>
-				</dict>
-				<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
-				<dict>
-					<key>AAPL,slot-name</key>
-					<string>Internal@0,8,0</string>
-					<key>device_type</key>
-					<string>System peripheral</string>
-					<key>model</key>
-					<string>Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model</string>
-				</dict>
+                <key>#PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Built-in</string>
+                    <key>Comment</key>
+                    <string>Required tor macOS 10.15 up to 11.3 only</string>
+                    <key>device-id</key>
+                    <data>8hUAAA==</data>
+                    <key>device_type</key>
+                    <string>Ethernet-Controller</string>
+                    <key>model</key>
+                    <string>Intel I225-V</string>
+                </dict>
+                <key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>#AAPL,ig-platform-id</key>
+                    <data>AACbPg==</data>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>BwCbPg==</data>
+                    <key>framebuffer-con0-busid</key>
+                    <data>BQAAAA==</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-flags</key>
+                    <data>xwMAAA==</data>
+                    <key>framebuffer-con0-index</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-pipe</key>
+                    <data>CQAAAA==</data>
+                    <key>framebuffer-con0-type</key>
+                    <data>AAQAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>BAAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-flags</key>
+                    <data>xwMAAA==</data>
+                    <key>framebuffer-con1-index</key>
+                    <data>AwAAAA==</data>
+                    <key>framebuffer-con1-pipe</key>
+                    <data>CAAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-flags</key>
+                    <data>xwMAAA==</data>
+                    <key>framebuffer-con2-index</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-con2-pipe</key>
+                    <data>CgAAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAQAAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>model</key>
+                    <string>Intel UHD Graphics 630</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>PP_DisableClockStretcher</key>
@@ -627,13 +480,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>BrcmFirmwareData.kext</string>
+                    <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmFirmwareData</string>
+                    <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -663,13 +516,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>BlueToolFixup.kext</string>
+                    <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
                     <string>V2.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BlueToolFixup</string>
+                    <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -924,8 +777,6 @@
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
-                    <key>revpatch</key>
-                    <string>sbvmm</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -963,7 +814,6 @@
                 </array>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
-                    <string>revpatch</string>
                     <string>rtc-blacklist</string>
                 </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
